@@ -113,7 +113,7 @@ function getAverageGoals(getFinalscb) {
    return (allGoals / getFinalscb.length).toFixed(2);
 }
 
-console.log(getFinals(fifaData));
+console.log('Task 6', getAverageGoals(getFinals(fifaData)));
 
 
 /// 🥅 STRETCH 🥅 ///
